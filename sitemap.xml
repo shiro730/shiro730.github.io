@@ -3,19 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://shiro730.github.io/post/wang-01/</loc>
-  </url>
-  
-  <url>
-    <loc>https://shiro730.github.io/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://shiro730.github.io/post/</loc>
+    <lastmod>2020-06-11T11:43:19+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://shiro730.github.io/</loc>
+    <lastmod>2020-06-11T11:43:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shiro730.github.io/post/wang/</loc>
+    <lastmod>2020-06-11T11:43:19+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://shiro730.github.io/categories/</loc>
   </url>
   
   <url>
