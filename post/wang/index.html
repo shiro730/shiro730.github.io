@@ -12,14 +12,14 @@
     
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="简单实现富文本编辑器"/>
-<meta name="twitter:description" content="简单实现富文本编辑器 1、思路
+<meta name="twitter:description" content="1、思路
 ​	在日常工作中，经常会使用到富文本编辑器，那么富文本到底是怎么实现的呢？
 ​	我也是第一次做富文本编辑器，一开始完全没有一点想法，脑子里唯一能想到的是用来做，但是查了资料，发现textarea支持多行文本输入，满足了我们编辑的很大需求。然而，textarea不能像div一样高度自适应，高度保持不变，内容大于高度时就会出现滚动条。而且textarea只支持文本输入，随着现在越来越关注用户体验，需求也越来越多，很多时候我们需要在编辑区域插入图片，链接，视频。
 ​	表示该区域为可编辑区域，可根据内容高度自适应，这样我们的富文本编辑区域就有了，但是我们还要对内容进行编辑，样式控制等，我们选择好了编辑内容以及样式，就需要一个命令去为我们执行这个命令，实现这些功能，document.execCommand(sCommand[,交互方式, 动态参数])这个命令就可以很好的解决这个问题，实现富文本的核心思想有了，我们就开始编写我们的第一个富文本编辑器把！
 &lt;html&gt; &lt;head&gt; &lt;meta charset=&#34;utf-8&#34;&gt; &lt;title&gt;&lt;/title&gt; &lt;style type=&#34;text/css&#34;&gt; .editor_title { line-height: 40px; padding-left: 10px; height: 40px; width: 690px; background-color: gainsboro; } .body { margin-top: 30px; margin-left: auto; margin-right: auto; height: 400px; width: 700px; border: 1px solid gainsboro; } .editor { overflow: auto; height: 360px; width: 100%; margin-left: 10px; border: none; outline: none; } select { appearance: none; -webkit-appearance: none; -moz-appearance: none; background-color: gainsboro; outline: none; border: none; width: 40px; height: 20px; } button { background-color: gainsboro; outline: none; border: none; width: 30px; height: 20px; } &lt;/style&gt; &lt;/head&gt; &lt;body&gt; &lt;div class=&#34;body&#34;&gt; &lt;!"/>
 
     <meta property="og:title" content="简单实现富文本编辑器" />
-<meta property="og:description" content="简单实现富文本编辑器 1、思路
+<meta property="og:description" content="1、思路
 ​	在日常工作中，经常会使用到富文本编辑器，那么富文本到底是怎么实现的呢？
 ​	我也是第一次做富文本编辑器，一开始完全没有一点想法，脑子里唯一能想到的是用来做，但是查了资料，发现textarea支持多行文本输入，满足了我们编辑的很大需求。然而，textarea不能像div一样高度自适应，高度保持不变，内容大于高度时就会出现滚动条。而且textarea只支持文本输入，随着现在越来越关注用户体验，需求也越来越多，很多时候我们需要在编辑区域插入图片，链接，视频。
 ​	表示该区域为可编辑区域，可根据内容高度自适应，这样我们的富文本编辑区域就有了，但是我们还要对内容进行编辑，样式控制等，我们选择好了编辑内容以及样式，就需要一个命令去为我们执行这个命令，实现这些功能，document.execCommand(sCommand[,交互方式, 动态参数])这个命令就可以很好的解决这个问题，实现富文本的核心思想有了，我们就开始编写我们的第一个富文本编辑器把！
@@ -62,8 +62,7 @@
         </div></div>
     </header>
     <div class="post-content">
-      <h2 id="简单实现富文本编辑器">简单实现富文本编辑器</h2>
-<p>1、思路</p>
+      <p>1、思路</p>
 <p>​		在日常工作中，经常会使用到富文本编辑器，那么富文本到底是怎么实现的呢？</p>
 <p>​		我也是第一次做富文本编辑器，一开始完全没有一点想法，脑子里唯一能想到的是用<!-- raw HTML omitted -->来做，但是查了资料，发现textarea支持多行文本输入，满足了我们编辑的很大需求。然而，textarea不能像div一样高度自适应，高度保持不变，内容大于高度时就会出现滚动条。而且textarea只支持文本输入，随着现在越来越关注用户体验，需求也越来越多，很多时候我们需要在编辑区域插入图片，链接，视频。</p>
 <p>​		<!-- raw HTML omitted -->表示该区域为可编辑区域，可根据内容高度自适应，这样我们的富文本编辑区域就有了，但是我们还要对内容进行编辑，样式控制等，我们选择好了编辑内容以及样式，就需要一个命令去为我们执行这个命令，实现这些功能，document.execCommand(sCommand[,交互方式, 动态参数])这个命令就可以很好的解决这个问题，实现富文本的核心思想有了，我们就开始编写我们的第一个富文本编辑器把！</p>
